@@ -244,7 +244,7 @@ Some nice resources, where I found some of the examples I've illustrated here:
 Where GREP came from (with Brian!)
 https://www.youtube.com/watch?v=NTfOnGZUZDk
 
-Unix Popeline (with Brian!)
+Unix Pipeline (with Brian!)
 https://www.youtube.com/watch?v=bKzonnwoR2I
 
 Brian Kernighan interviews Ken Thompson
