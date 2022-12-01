@@ -61,20 +61,6 @@ Ken Thompson and Dennis Ritchie invent _Unix_ ✨
 
 # The Unix Philosophy
 
-**Make each program do one thing well.** To do a new job, build afresh rather than complicate old programs by adding new "features".
-
----
-
-# The Unix Philosophy
-
-Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
-
-**Expect the output of every program to become the input to another, as yet unknown, program.** Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
-
----
-
-# The Unix Philosophy
-
 Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
 
 Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
@@ -126,42 +112,6 @@ Your command history 📖
 - ESC + B
 - ESC + F
 
----
-
-# Keyboard tricks ⌨️
-
-# Beginning and end of line
-
-- CTRL + A
-- CTRL + E
-
-# Jumping wordwise (bizarre default in iTerm? but possible to change your meta key to something else!)
-
-- ESC + B
-- ESC + F
-
-# Transpose letters
-
-- CTRL + T
-
-# Transpose the words
-
-- ESC + T
-
----
-
-# Keyboard tricks ⌨️
-
-# Beginning and end of line
-
-- CTRL + A
-- CTRL + E
-
-# Jumping wordwise (bizarre default in iTerm? but possible to change your meta key to something else!)
-
-- ESC + B
-- ESC + F
-
 # Transpose letters
 
 - CTRL + T
@@ -183,13 +133,15 @@ Your command history 📖
 
 # Killing 🔪 ... and yanking? The kill-ring.
 
-Yank stuff from the kill-ring with CTRL + Y 👻 
+Yank stuff from the kill-ring with CTRL + Y 👻
 
 ---
 
 # Manual pages, or man pages for short
 
 Ken and Richie had a boss who told them to write docs
+
+Try typing man man to see the man pages on the man pages!
 
 ---
 
@@ -200,6 +152,7 @@ Ken and Richie had a boss who told them to write docs
 3. A shell function - I've never done one, if you have, please share why and how? 🙏
 4. An alias
 
+To see the type of a command, you can write:
 type command
 
 ---
@@ -237,7 +190,7 @@ ls -l /bin/usr _2>_ ls-error.txt
 
 ---
 
-# Example: building a really dumb word processor? 
+# Example: building a really dumb word processor?
 
 cat 🐱
 Reads one or more files and copies them to standard output
@@ -266,11 +219,9 @@ Developer
 
 command1 | command2
 
-Make a list of the executable files in /bin and usr/bin, sort them, show them! 
-
+Make a list of the executable files in /bin and usr/bin, sort them, show them!
 
 ls /bin /usr/bin | sort | less
-
 
 ---
 
@@ -284,3 +235,19 @@ ls /bin /usr/bin | sort | uniq | grep zip
 
 ---
 
+Some nice resources, where I found some of the examples I've illustrated here:
+
+- The Linux Command Line by William Shotts - available in printed format, but also released under a creative commons license and available for download! You find it here: https://linuxcommand.org/tlcl.php
+
+- The Unix Programming Environment by Kernighan and Pike
+
+Where GREP came from (with Brian!)
+https://www.youtube.com/watch?v=NTfOnGZUZDk
+
+Unix Popeline (with Brian!)
+https://www.youtube.com/watch?v=bKzonnwoR2I
+
+Brian Kernighan interviews Ken Thompson
+https://www.youtube.com/watch?v=EY6q5dv_B-o
+
+---
