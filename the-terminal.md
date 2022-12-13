@@ -65,7 +65,7 @@ Make each program do one thing well. To do a new job, build afresh rather than c
 
 Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
 
-**Design and build software, even operating systems, to be tried early, ideally within weeks.** Don't hesitate to throw away the clumsy parts and rebuild them.
+Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
 
 ---
 
@@ -84,14 +84,6 @@ Your command history 📖
 - History expansion: !! and !number
 
 - CTRL + O - run a sequence of commands from your history
-
----
-# Keyboard tricks ⌨️
-
-# Beginning and end of line
-
-- CTRL + A
-- CTRL + E
 
 ---
 
