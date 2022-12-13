@@ -86,11 +86,6 @@ Your command history 📖
 - CTRL + O - run a sequence of commands from your history
 
 ---
-
-# Keyboard tricks ⌨️
-
----
-
 # Keyboard tricks ⌨️
 
 # Beginning and end of line
